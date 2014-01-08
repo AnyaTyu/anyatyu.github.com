@@ -1,0 +1,38 @@
+div{
+	display: inline-block;
+	position: relative;
+	z-index: auto;
+}
+.IE{
+	position: absolute;
+	right: 50px;
+}
+
+span{
+	display:inline-block;
+	position: absolute;
+	z-index: -999;
+	top:50px;
+}
+.Chrome{
+	left: 50px;
+}
+.Firefox{
+	left: 150px;
+}
+.Opera{
+	left: 261px;
+}
+.Safari{
+	left: 380px;
+}
+.Yandex{
+	left: 490px;
+}
+.Explorer{
+	display:inline-block;
+	position: absolute;
+	z-index: -999;
+	top:50px;
+	right: 50px;
+}
