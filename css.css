@@ -1,0 +1,43 @@
+div{
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	z-index: auto;
+}
+span{
+	font-size: 12px;
+	position: absolute;
+	z-index: -999;
+	top: 98px;
+	left: 40px;
+}
+.IE span{
+	left: -80px;
+	top: 83px;
+	right:30px;
+	line-height:1;
+}
+.Chrome span,
+.Yandex span{
+	position: relative;
+	top:96px;
+}
+.Chrome{
+	left: 5px;
+}
+.Firefox{
+	left: 140px;
+}
+.Opera{
+	left: 270px;
+}
+.Safari{
+	left: 390px;
+}
+.Yandex{
+	left: 515px;
+}
+.IE{
+	top:13px;
+	right:20px;
+}
