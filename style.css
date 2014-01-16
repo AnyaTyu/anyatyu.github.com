@@ -1,0 +1,73 @@
+.Chrome,
+.Firefox,
+.Safari,
+.Opera,
+.Yandex{
+	width: 130px;
+	height: 130px;
+	display: inline-block;
+	position: relative;
+}
+.Chrome{
+	background-image: url('Chrome.png');
+	background-repeat: no-repeat;
+}
+.Firefox{
+	background-image: url('Firefox.png');
+	background-repeat: no-repeat;
+}
+.Safari{
+	background-image: url('Safari.png');
+	background-repeat: no-repeat;
+}
+.Opera{
+	background-image: url('Opera.png');
+	background-repeat: no-repeat;
+}
+.Yandex{
+	background-image: url('Yandex_browser.png');
+	background-repeat: no-repeat;
+}
+.photo{
+	position: absolute;
+}
+.text{
+	position: absolute;
+	left:35px;
+	bottom: 15px;
+	z-index: -999;
+}
+.IE{
+	width: 130px;
+	height: 130px;
+	display: inline-block;
+	position: relative;
+	float: right;
+	background-image: url('IE.png');
+	background-repeat: no-repeat;
+}
+.nebro .text{
+	position: absolute;
+	z-index: -999;
+}
+.ch{
+	color: red;
+}
+.ro{
+	color: green;
+}
+.me{
+	color:darkorange;
+}
+.ff{
+	color:darkorange;
+}
+.opera{
+	color:red;
+}
+.safari{
+	color:grey;
+}
+.blue{
+	color:DodgerBlue;
+}
