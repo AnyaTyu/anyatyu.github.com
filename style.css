@@ -1,73 +1,40 @@
-.Chrome,
-.Firefox,
-.Safari,
-.Opera,
-.Yandex{
+.bro,
+.nebro{
 	width: 130px;
 	height: 130px;
 	display: inline-block;
-	position: relative;
-}
-.Chrome{
-	background-image: url('Chrome.png');
-	background-repeat: no-repeat;
-}
-.Firefox{
-	background-image: url('Firefox.png');
-	background-repeat: no-repeat;
-}
-.Safari{
-	background-image: url('Safari.png');
-	background-repeat: no-repeat;
-}
-.Opera{
-	background-image: url('Opera.png');
-	background-repeat: no-repeat;
-}
-.Yandex{
-	background-image: url('Yandex_browser.png');
-	background-repeat: no-repeat;
+	overflow: hidden;
 }
 .photo{
-	position: absolute;
+margin-top: -20px;
+}
+.photo img{
+margin-top:-40px;
 }
 .text{
-	position: absolute;
-	left:35px;
-	bottom: 15px;
-	z-index: -999;
+	text-align: center;
 }
-.IE{
-	width: 130px;
-	height: 130px;
-	display: inline-block;
-	position: relative;
-	float: right;
-	background-image: url('IE.png');
-	background-repeat: no-repeat;
-}
-.nebro .text{
-	position: absolute;
-	z-index: -999;
+.nebro{
+float: right;
 }
 .ch{
-	color: red;
+        color: red;
 }
 .ro{
-	color: green;
+        color: green;
 }
 .me{
-	color:darkorange;
+        color:darkorange;
 }
 .ff{
-	color:darkorange;
+        color:darkorange;
 }
 .opera{
-	color:red;
+        color:red;
 }
 .safari{
-	color:grey;
+        color:grey;
 }
 .blue{
-	color:DodgerBlue;
+        color:DodgerBlue;
 }
