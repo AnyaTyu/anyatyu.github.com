@@ -6,16 +6,20 @@
 	overflow: hidden;
 }
 .photo{
-margin-top: -20px;
+        margin-top: -20px;
 }
 .photo img{
-margin-top:-40px;
+        margin-top:-40px;
 }
 .text{
 	text-align: center;
+        width: 130px;
+        height: 130px;
+        display: table-cell; 
+        vertical-align: middle; 
 }
 .nebro{
-float: right;
+        float: right;
 }
 .ch{
         color: red;
